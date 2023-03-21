@@ -18,3 +18,4 @@ int main()
 }
 
 // answer should be 4613732
+// count the amount of times b gets added to sum_even
