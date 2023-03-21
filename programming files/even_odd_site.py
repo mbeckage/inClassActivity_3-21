@@ -13,6 +13,6 @@ with open("numbers.html") as f:
     f.write("</table>\n</body>\n</html>")
 
 # Read numbers
-with open("numbers.html") as fin:
+with open("numbers.html") as f:
     print(f.read())
     
