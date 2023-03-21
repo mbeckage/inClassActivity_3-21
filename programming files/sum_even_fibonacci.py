@@ -1,9 +1,10 @@
+#bugs introduced: mb
 #make a sum of fibonacci with even numbers
 a, b = 0, 1
 sum_even = 0
-while b < 4000000:
+while b < 3900000:
     if b % 2 == 0:
-        sum_even += b
+        sum_even -= b
     a, b = b, a+b
 
 print(sum_even)
